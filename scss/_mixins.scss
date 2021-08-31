@@ -1,0 +1,40 @@
+@mixin pretitle {
+    font-size: 18px;
+    line-height: 24px;
+    color: #00CA90;
+    display: inline-block;
+
+}
+
+@mixin title {
+    font-size: 41px;
+    line-height: 56px;
+    color: #013A51;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+@mixin description {
+    font-size: 18px;
+    line-height: 26px;
+    color: #013A51;
+}
+
+@mixin buttons {
+    width: 255px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+@mixin hide-block {
+    transform: translate(0px, 80%);
+    opacity: 0;
+    transition: 0.8s;
+}
+
+@mixin show-block {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
